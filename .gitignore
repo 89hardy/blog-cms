@@ -26,6 +26,7 @@ ENV/
 
 # Environment Variables
 .env
+.env.*
 
 # IDE
 .idea/
@@ -35,4 +36,15 @@ ENV/
 
 # OS
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local development
+instance/
+.webassets-cache/
+
+# Render specific
+.render-buildpacks/ 
